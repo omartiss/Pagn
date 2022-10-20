@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-seri
+}
+
+header {
+    padding: 10px 40px;
+    background-color: beige;
+    }
+    
+    header .box_header{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    
+    header .box_header .logo a{
+    font-size: 40px;
+    text-decoration: none;
+    color: black;
+    }
+
+    @media screen and (min-width:600px){
+        .box_header .nav {
+            font-size: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .box_header .nav a{
+            font-size: 20px;
+        }
+    }
+
+    @media screen and (max-width: 720px){
+        header .box_header .nav{
+            display: flex;
+            flex-direction: column;
+            align-items: center;}
+    }
+    
+    header .box_header .nav a{
+    padding-right: 20px;
+    padding-top: 20px;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    }
+    
+    header .box_header .nav a input{
+    font-size: 25px;
+    padding: 15px 35px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    }
+    
+    section .box_section{
+    margin: auto;
+    padding-top: 70px;
+    max-width: 1350px;
+    display: flex;
+    justify-content: space-beetwem;
+    align-items: center;
+    }
+    
+    section .box_section .img img{
+    width: 100%;
+    }
+
+    section div.box_section div.img img{
+        width: 100%;
+        right: 0px;
+        width: 400px;
+        animation: more-vector 3s ease-in-out infinite;
+    }
+    
+    @keyframes more-vector{
+        0%{
+            transform: translateY(10px);
+        }50%{
+            transform: translateY(-10px);
+        }100%{
+            transform: translateY(10px);
+        } 
+    }
+    
+    @media screen and (max-width: 800px){
+        section .box_section .img img{
+            display: none;
+        }
+    }
+    
+    section .box_section .text h1{
+    text-align: center;
+    font-size: 50px;
+    }
+    
+    section .box_section .text p{
+        font-size: 25px;
+    padding-top: 20px;
+    text-align: center;
+    }
+    
+    section .box_section .text a{
+    padding-top: 20px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    section .box_section .text a input{
+        font-size: 25px;
+        padding: 15px 35px;
+        border: none;
+        background-color: black;
+        color: white;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+
+    section div.box_section_cards{
+        max-width: 1400px;
+        padding: 150px 0px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        border-radius: 20px;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    section div.box_section_cards div.cards1{
+        padding-right: 20px; 
+        display: block;
+        justify-content: center;
+    }
+    
+    section div.box_section_cards div.cards1 h2{
+        color: black;
+        font-size: 40px;
+    }
+    
+    section div.box_section_cards div.cards1 img{
+        width: 300px;
+    }
+    
+    section div.box_section_cards div.cards1 input{
+        margin-top: 15px;
+        padding: 10px 40px;
+        font-size: 20px;
+        background-color: black;
+        color: white;
+        transition: background 300ms;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+    
+    section div.box_section_cards div.cards2{ 
+        padding-right: 40px; 
+        display: block;
+        justify-content: center;
+    }
+    
+    section div.box_section_cards div.cards2 h2{
+        color: black;
+        font-size: 40px;
+    }
+    
+    section div.box_section_cards div.cards2 img{
+        width: 300px;
+    }
+    
+    section div.box_section_cards div.cards2 input{
+        margin-top: 15px;
+        padding: 10px 40px;
+        font-size: 20px;
+        background-color: black;
+        color: white;
+        transition: background 300ms;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+    
+    section div.box_section_cards div.cards3{ 
+        display: block;
+        justify-content: center;
+    }
+    
+    section div.box_section_cards div.cards3 h2{
+        color: black;
+        font-size: 40px;
+    }
+    
+    section div.box_section_cards div.cards3 img{
+        width: 300px;
+    }
+    
+    section div.box_section_cards div.cards3 input{
+        margin-top: 15px;
+        padding: 10px 40px;
+        font-size: 20px;
+        padding-right: 50px;
+        background-color: black;
+        color: white;
+        transition: background 300ms;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+
+    footer .box_footer{
+        background-color: beige;
+        padding-top: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    footer .box_footer a{
+        list-style: none;
+    }
+    
+    footer .box_footer img{
+        width: 60px;
+    }
+    
+    footer .box_footer h4{
+        font-size: 30px;
+        color: black;
+    }
+
+@media screen and (max-width: 1020px){
+    .box header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .box_header .logo{
+        font-size: 30px;
+    }
+
+    .box_header .nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .box_header .nav a{
+        font-size: 20px;
+    }
+}
+    
