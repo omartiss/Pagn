@@ -149,6 +149,12 @@ header {
         color: black;
         font-size: 40px;
     }
+
+    @media screen and (max-width:600px){
+        section div.box_section_cards div.cards1 h2{
+            font-size: 20px;
+        }
+    }
     
     section div.box_section_cards div.cards1 img{
         width: 300px;
@@ -164,6 +170,12 @@ header {
         border-radius: 30px;
         cursor: pointer;
     }
+
+    @media screen and (max-width:600px) {
+        section div.box_section_cards div.cards1 img{
+            width: 150px;
+        }
+    }
     
     section div.box_section_cards div.cards2{ 
         padding-right: 40px; 
@@ -174,6 +186,12 @@ header {
     section div.box_section_cards div.cards2 h2{
         color: black;
         font-size: 40px;
+    }
+
+    @media screen and (max-width:600px){
+        section div.box_section_cards div.cards2 h2{
+            font-size: 20px;
+        }
     }
     
     section div.box_section_cards div.cards2 img{
@@ -190,6 +208,12 @@ header {
         border-radius: 30px;
         cursor: pointer;
     }
+
+    @media screen and (max-width:600px) {
+        section div.box_section_cards div.cards2 img{
+            width: 150px;
+        }
+    }
     
     section div.box_section_cards div.cards3{ 
         display: block;
@@ -199,6 +223,12 @@ header {
     section div.box_section_cards div.cards3 h2{
         color: black;
         font-size: 40px;
+    }
+
+    @media screen and (max-width:600px){
+        section div.box_section_cards div.cards3 h2{
+            font-size: 20px;
+        }
     }
     
     section div.box_section_cards div.cards3 img{
@@ -217,11 +247,18 @@ header {
         cursor: pointer;
     }
 
+    @media screen and (max-width:600px) {
+        section div.box_section_cards div.cards3 img{
+            width: 150px;
+        }
+    }
+
     footer .box_footer{
         background-color: beige;
         padding-top: 50px;
+        padding: 0px 20px;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
     }
     
@@ -230,7 +267,7 @@ header {
     }
     
     footer .box_footer img{
-        width: 60px;
+        width: 40px;
     }
     
     footer .box_footer h4{
@@ -238,25 +275,4 @@ header {
         color: black;
     }
 
-@media screen and (max-width: 1020px){
-    .box header{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .box_header .logo{
-        font-size: 30px;
-    }
-
-    .box_header .nav{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .box_header .nav a{
-        font-size: 20px;
-    }
-}
     
